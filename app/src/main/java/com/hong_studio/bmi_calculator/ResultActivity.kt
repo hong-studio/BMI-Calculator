@@ -15,7 +15,7 @@ class ResultActivity : AppCompatActivity(){
         val height = intent.getIntExtra("height", 0)
         val weight = intent.getIntExtra("weight", 0)
 
-        Log.d("ResultActivity", "height : $height, weight : $weight")
+//        Log.d("ResultActivity", "height : $height, weight : $weight")
 
         val bmi = weight / (height / 100.0).pow(2.0)
         val resultText = when{
